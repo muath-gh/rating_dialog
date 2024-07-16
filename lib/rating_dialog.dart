@@ -131,8 +131,10 @@ class _RatingDialogState extends State<RatingDialog> {
                         textInputAction: TextInputAction.newline,
                         minLines: 1,
                         maxLines: 5,
+                        style: TextStyle(color: Colors.black),
                         decoration: InputDecoration(
                           hintText: widget.commentHint,
+                          hintStyle: TextStyle(color: Colors.black),
                         ),
                       )
                     : const SizedBox(height: 15),
